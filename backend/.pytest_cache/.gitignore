@@ -1,0 +1,21 @@
+# Created by pytest automatically.
+# Python
+venv/
+backend/venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# ML / Large binaries
+*.h5
+*.pkl
+*.pt
+*.onnx
+*.dll
+*.pyd
+
+# Node
+node_modules/
+

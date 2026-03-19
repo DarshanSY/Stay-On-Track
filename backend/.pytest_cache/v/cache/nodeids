@@ -1,0 +1,4 @@
+[
+  "tests/test_api.py::test_health_check",
+  "tests/test_api.py::test_predict_endpoint"
+]

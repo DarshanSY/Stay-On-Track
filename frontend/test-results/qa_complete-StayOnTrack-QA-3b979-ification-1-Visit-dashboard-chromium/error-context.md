@@ -1,0 +1,202 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e6]: StayOnTrack
+      - navigation [ref=e7]:
+        - generic [ref=e8]: Menu
+        - link "Dashboard" [ref=e9] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e10]
+          - text: Dashboard
+        - link "Students" [ref=e15] [cursor=pointer]:
+          - /url: /dashboard/students
+          - img [ref=e16]
+          - text: Students
+        - link "Trends" [ref=e21] [cursor=pointer]:
+          - /url: /dashboard/trends
+          - img [ref=e22]
+          - text: Trends
+        - link "Interventions" [ref=e25] [cursor=pointer]:
+          - /url: /dashboard/interventions
+          - img [ref=e26]
+          - text: Interventions
+        - link "Counseling" [ref=e28] [cursor=pointer]:
+          - /url: /dashboard/counseling
+          - img [ref=e29]
+          - text: Counseling
+        - link "Analytics" [ref=e31] [cursor=pointer]:
+          - /url: /dashboard/analytics
+          - img [ref=e32]
+          - text: Analytics
+        - link "Fairness" [ref=e33] [cursor=pointer]:
+          - /url: /dashboard/fairness
+          - img [ref=e34]
+          - text: Fairness
+        - link "Alerts" [ref=e38] [cursor=pointer]:
+          - /url: /dashboard/alerts
+          - img [ref=e39]
+          - text: Alerts
+        - link "Predictions" [ref=e42] [cursor=pointer]:
+          - /url: /predictions
+          - img [ref=e43]
+          - text: Predictions
+        - link "Settings" [ref=e51] [cursor=pointer]:
+          - /url: /dashboard/settings
+          - img [ref=e52]
+          - text: Settings
+      - button "Logout" [ref=e56]:
+        - img [ref=e57]
+        - text: Logout
+    - main [ref=e60]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - heading "Dashboard" [level=1] [ref=e65]
+          - generic [ref=e66]: "Last updated: 11/12/2025"
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - generic [ref=e69]:
+              - generic [ref=e70]:
+                - paragraph [ref=e71]: Total Students
+                - heading "4" [level=3] [ref=e72]
+              - img [ref=e74]
+            - paragraph [ref=e79]: Active enrollment
+          - generic [ref=e80]:
+            - generic [ref=e81]:
+              - generic [ref=e82]:
+                - paragraph [ref=e83]: At Risk
+                - heading "2" [level=3] [ref=e84]
+              - img [ref=e86]
+            - paragraph [ref=e88]: High & Medium risk
+          - generic [ref=e89]:
+            - generic [ref=e90]:
+              - generic [ref=e91]:
+                - paragraph [ref=e92]: Critical Attention
+                - heading "1" [level=3] [ref=e93]
+              - img [ref=e95]
+            - paragraph [ref=e98]: Immediate intervention needed
+          - generic [ref=e99]:
+            - generic [ref=e100]:
+              - generic [ref=e101]:
+                - paragraph [ref=e102]: On Track
+                - heading "1" [level=3] [ref=e103]
+              - img [ref=e105]
+            - paragraph [ref=e108]: Low risk students
+        - generic [ref=e109]:
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - heading "Risk Distribution" [level=3] [ref=e113]
+              - application [ref=e117]:
+                - generic [ref=e133]:
+                  - generic [ref=e134]:
+                    - generic [ref=e136]: Critical
+                    - generic [ref=e138]: High
+                    - generic [ref=e140]: Medium
+                    - generic [ref=e142]: Low
+                  - generic [ref=e143]:
+                    - generic [ref=e145]: "0"
+                    - generic [ref=e147]: "0.25"
+                    - generic [ref=e149]: "0.5"
+                    - generic [ref=e151]: "0.75"
+                    - generic [ref=e153]: "1"
+            - generic [ref=e154]:
+              - heading "Risk Overview" [level=3] [ref=e155]
+              - generic [ref=e156]:
+                - application [ref=e159]
+                - generic [ref=e171]:
+                  - generic [ref=e174]: Critical
+                  - generic [ref=e177]: High
+                  - generic [ref=e180]: Medium
+                  - generic [ref=e183]: Low
+          - generic [ref=e184]:
+            - generic [ref=e185]:
+              - heading "Recent Alerts" [level=3] [ref=e186]:
+                - img [ref=e187]
+                - text: Recent Alerts
+              - generic [ref=e190]:
+                - generic [ref=e191]:
+                  - img [ref=e193]
+                  - generic [ref=e195]:
+                    - paragraph [ref=e196]: High risk detected for STU006
+                    - paragraph [ref=e197]: 12/11/2025
+                - generic [ref=e198]:
+                  - img [ref=e200]
+                  - generic [ref=e202]:
+                    - paragraph [ref=e203]: LMS Connection Established
+                    - paragraph [ref=e204]: 12/11/2025
+            - generic [ref=e205]:
+              - heading "LMS Activity Insights" [level=3] [ref=e206]:
+                - img [ref=e207]
+                - text: LMS Activity Insights
+              - generic [ref=e209]:
+                - paragraph [ref=e210]: Student login & submission intensity (Last 30 Days)
+                - generic [ref=e211]:
+                  - 'generic "Activity Level: 1" [ref=e212]'
+                  - 'generic "Activity Level: 0" [ref=e213]'
+                  - 'generic "Activity Level: 1" [ref=e214]'
+                  - 'generic "Activity Level: 0" [ref=e215]'
+                  - 'generic "Activity Level: 0" [ref=e216]'
+                  - 'generic "Activity Level: 2" [ref=e217]'
+                  - 'generic "Activity Level: 3" [ref=e218]'
+                  - 'generic "Activity Level: 3" [ref=e219]'
+                  - 'generic "Activity Level: 1" [ref=e220]'
+                  - 'generic "Activity Level: 1" [ref=e221]'
+                  - 'generic "Activity Level: 3" [ref=e222]'
+                  - 'generic "Activity Level: 3" [ref=e223]'
+                  - 'generic "Activity Level: 1" [ref=e224]'
+                  - 'generic "Activity Level: 1" [ref=e225]'
+                  - 'generic "Activity Level: 1" [ref=e226]'
+                  - 'generic "Activity Level: 2" [ref=e227]'
+                  - 'generic "Activity Level: 1" [ref=e228]'
+                  - 'generic "Activity Level: 2" [ref=e229]'
+                  - 'generic "Activity Level: 0" [ref=e230]'
+                  - 'generic "Activity Level: 2" [ref=e231]'
+                  - 'generic "Activity Level: 1" [ref=e232]'
+                  - 'generic "Activity Level: 1" [ref=e233]'
+                  - 'generic "Activity Level: 0" [ref=e234]'
+                  - 'generic "Activity Level: 2" [ref=e235]'
+                  - 'generic "Activity Level: 2" [ref=e236]'
+                  - 'generic "Activity Level: 0" [ref=e237]'
+                  - 'generic "Activity Level: 1" [ref=e238]'
+                  - 'generic "Activity Level: 1" [ref=e239]'
+                  - 'generic "Activity Level: 0" [ref=e240]'
+                  - 'generic "Activity Level: 2" [ref=e241]'
+                  - 'generic "Activity Level: 1" [ref=e242]'
+                  - 'generic "Activity Level: 2" [ref=e243]'
+                  - 'generic "Activity Level: 2" [ref=e244]'
+                  - 'generic "Activity Level: 3" [ref=e245]'
+                  - 'generic "Activity Level: 2" [ref=e246]'
+                  - 'generic "Activity Level: 1" [ref=e247]'
+                  - 'generic "Activity Level: 2" [ref=e248]'
+                  - 'generic "Activity Level: 2" [ref=e249]'
+                  - 'generic "Activity Level: 1" [ref=e250]'
+                  - 'generic "Activity Level: 3" [ref=e251]'
+                  - 'generic "Activity Level: 1" [ref=e252]'
+                  - 'generic "Activity Level: 1" [ref=e253]'
+                  - 'generic "Activity Level: 3" [ref=e254]'
+                  - 'generic "Activity Level: 2" [ref=e255]'
+                  - 'generic "Activity Level: 2" [ref=e256]'
+                  - 'generic "Activity Level: 2" [ref=e257]'
+                  - 'generic "Activity Level: 2" [ref=e258]'
+                  - 'generic "Activity Level: 3" [ref=e259]'
+                  - 'generic "Activity Level: 1" [ref=e260]'
+                  - 'generic "Activity Level: 3" [ref=e261]'
+                - generic [ref=e262]:
+                  - generic [ref=e263]: Less
+                  - generic [ref=e269]: More
+  - generic [ref=e274] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e275]:
+      - img [ref=e276]
+    - generic [ref=e279]:
+      - button "Open issues overlay" [ref=e280]:
+        - generic [ref=e281]:
+          - generic [ref=e282]: "0"
+          - generic [ref=e283]: "1"
+        - generic [ref=e284]: Issue
+      - button "Collapse issues badge" [ref=e285]:
+        - img [ref=e286]
+  - alert [ref=e288]
+  - generic [ref=e289]: "0"
+```

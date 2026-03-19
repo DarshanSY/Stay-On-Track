@@ -1,0 +1,13 @@
+flask
+flask-cors
+flask-sqlalchemy
+numpy
+pandas
+scikit-learn
+catboost
+shap
+joblib
+python-dotenv
+tensorflow
+imblearn
+lime

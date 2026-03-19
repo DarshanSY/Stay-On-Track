@@ -1,0 +1,134 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e6]: StayOnTrack
+      - navigation [ref=e7]:
+        - generic [ref=e8]: Menu
+        - link "Dashboard" [ref=e9] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e10]
+          - text: Dashboard
+        - link "Students" [ref=e15] [cursor=pointer]:
+          - /url: /dashboard/students
+          - img [ref=e16]
+          - text: Students
+        - link "Trends" [ref=e21] [cursor=pointer]:
+          - /url: /dashboard/trends
+          - img [ref=e22]
+          - text: Trends
+        - link "Interventions" [ref=e25] [cursor=pointer]:
+          - /url: /dashboard/interventions
+          - img [ref=e26]
+          - text: Interventions
+        - link "Counseling" [ref=e28] [cursor=pointer]:
+          - /url: /dashboard/counseling
+          - img [ref=e29]
+          - text: Counseling
+        - link "Analytics" [ref=e31] [cursor=pointer]:
+          - /url: /dashboard/analytics
+          - img [ref=e32]
+          - text: Analytics
+        - link "Fairness" [ref=e33] [cursor=pointer]:
+          - /url: /dashboard/fairness
+          - img [ref=e34]
+          - text: Fairness
+        - link "Alerts" [ref=e38] [cursor=pointer]:
+          - /url: /dashboard/alerts
+          - img [ref=e39]
+          - text: Alerts
+        - link "Predictions" [ref=e42] [cursor=pointer]:
+          - /url: /predictions
+          - img [ref=e43]
+          - text: Predictions
+        - link "Settings" [ref=e51] [cursor=pointer]:
+          - /url: /dashboard/settings
+          - img [ref=e52]
+          - text: Settings
+      - button "Logout" [ref=e56]:
+        - img [ref=e57]
+        - text: Logout
+    - main [ref=e60]:
+      - generic [ref=e62]:
+        - heading "Student Trends" [level=1] [ref=e63]
+        - generic [ref=e64]:
+          - generic [ref=e65]: Select Student
+          - combobox [ref=e66]:
+            - option "Student 1 (STU001)" [selected]
+            - option "Student 2 (STU002)"
+            - option "Student 3 (STU003)"
+            - option "Critical Student (STU006)"
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - heading "Attendance Trend" [level=2] [ref=e69]
+            - generic [ref=e72]:
+              - list [ref=e74]:
+                - listitem [ref=e75]:
+                  - img "Attendance % legend icon" [ref=e76]
+                  - text: Attendance %
+              - application [ref=e78]:
+                - generic [ref=e101]:
+                  - generic [ref=e102]:
+                    - generic [ref=e104]: Jan
+                    - generic [ref=e106]: Feb
+                    - generic [ref=e108]: Mar
+                    - generic [ref=e110]: Apr
+                    - generic [ref=e112]: May
+                    - generic [ref=e114]: Jun
+                  - generic [ref=e115]:
+                    - generic [ref=e117]: "0"
+                    - generic [ref=e119]: "25"
+                    - generic [ref=e121]: "50"
+                    - generic [ref=e123]: "75"
+                    - generic [ref=e125]: "100"
+          - generic [ref=e126]:
+            - heading "GPA Trend" [level=2] [ref=e127]
+            - generic [ref=e130]:
+              - list [ref=e132]:
+                - listitem [ref=e133]:
+                  - img "CGPA legend icon" [ref=e134]
+                  - text: CGPA
+              - application [ref=e136]:
+                - generic [ref=e157]:
+                  - generic [ref=e158]:
+                    - generic [ref=e160]: Sem 1
+                    - generic [ref=e162]: Sem 2
+                    - generic [ref=e164]: Sem 3
+                    - generic [ref=e166]: Sem 4
+                  - generic [ref=e167]:
+                    - generic [ref=e169]: "0"
+                    - generic [ref=e171]: "3"
+                    - generic [ref=e173]: "6"
+                    - generic [ref=e175]: "10"
+          - generic [ref=e176]:
+            - heading "LMS Activity" [level=2] [ref=e177]
+            - generic [ref=e180]:
+              - list [ref=e182]:
+                - listitem [ref=e183]:
+                  - img "Assignments legend icon" [ref=e184]
+                  - text: Assignments
+                - listitem [ref=e186]:
+                  - img "Logins legend icon" [ref=e187]
+                  - text: Logins
+              - application [ref=e189]:
+                - generic [ref=e221]:
+                  - generic [ref=e222]:
+                    - generic [ref=e224]: Jan
+                    - generic [ref=e226]: Feb
+                    - generic [ref=e228]: Mar
+                    - generic [ref=e230]: Apr
+                    - generic [ref=e232]: May
+                    - generic [ref=e234]: Jun
+                  - generic [ref=e235]:
+                    - generic [ref=e237]: "0"
+                    - generic [ref=e239]: "6"
+                    - generic [ref=e241]: "12"
+                    - generic [ref=e243]: "18"
+                    - generic [ref=e245]: "24"
+  - button "Open Next.js Dev Tools" [ref=e251] [cursor=pointer]:
+    - img [ref=e252]
+  - alert [ref=e255]
+  - generic [ref=e256]: "12"
+```
